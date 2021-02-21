@@ -1,0 +1,327 @@
+/* body{
+    overflow-y: hidden;
+} */
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.nav-link{
+    margin-left: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0969FA;
+}
+
+
+.jumbotron{
+    background: url(/image/hero.jpg);
+    background-size: cover;
+    height: 658px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron .display-4{
+    margin-top: 160px;
+    color: #0969FA;
+    text-transform: capitalize;
+    font-size: 42px;
+}
+
+.btn{
+    width: 195px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 85px 159px rgba(0, 0, 0, 0.11), 0px 35.511px 66.4264px rgba(0, 0, 0, 0.0785611), 0px 18.9859px 35.5147px rgba(0, 0, 0, 0.0644935), 0px 10.6433px 19.9093px rgba(0, 0, 0, 0.0539651), 0px 5.65259px 10.5737px rgba(0, 0, 0, 0.0437584);
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.desc-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.describtion{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #8E8E8E;
+}
+
+.reason, img{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title-reason{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.desc-reason{
+    color: #8E8E8E;
+}
+
+.title-program{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title-kelas-anak{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.kelas-anak img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-kelas-anak{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    background: none;
+    border: 3px solid white ;
+    color: white;
+}
+.btn-kelas-anak2{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    background: none;
+    border: 3px solid white ;
+    color: white;
+}
+.btn-kelas-remaja{
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    background: none;
+    border: 3px solid white ;
+    color: white;
+    width: 170px;   
+    font-size: 15px;
+}
+.btn-kelas-remaja2{
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    background: none;
+    border: 3px solid white ;
+    color: white;
+    width: 170px;   
+    font-size: 15px;
+}
+.btn-kelas-dewasa{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    background: none;
+    border: 3px solid white ;
+    color: white;
+    width: 170px;  
+    font-size: 16px;
+}
+.btn-kelas-dewasa2{
+    position: absolute;
+    top: 80%;
+    left: 58%;
+    background: none;
+    border: 3px solid white ;
+    color: white;
+    width: 170px;  
+    font-size: 15px;
+}
+.title-kelas-tambahan{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.kelas-tambahan{
+    margin-top: 30px;
+}
+.kelas-tambahan img{
+    width: 100%;
+    height: 100%;
+} 
+.title-reviews{
+    text-align: center;
+    margin-top: 20px;
+}
+.title-galeri{
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel h5{
+    text-transform: capitalize;
+}
+.review{
+    color: #8E8E8E;
+    font-size: 16px;
+    text-align: center;
+}
+
+.review img{
+    width: 210px;
+    margin-top: 30px;
+}
+
+.review h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 15px;
+}
+
+.review p{
+    font-size: 16px;    
+}
+
+.review span{
+    color: #c4c4c4;
+    font-style: italic;
+}
+.title-contact{
+    text-align: center;
+    margin-top: 20px;
+}
+.kontak{
+    margin-top: -20px;
+}
+.kontak-pribadi{
+    margin-top: 50px;
+    margin-left: 0px;
+    border-right: 2px solid black;
+}
+.institusi{ 
+    float: right; 
+}
+.kontak-institusi{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.desc-kontak-institusi{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #8E8E8E;
+    width: 350px;
+}
+.form-kontak{
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    color: #8E8E8E;
+    font-weight: 500;
+}
+ span{
+    color: blue;
+}
+@media (min-width: 992px) { 
+    
+    .nav-link:hover{
+        border-bottom: 1px solid #0969FA;
+    }
+    .jumbotron{
+        margin-top: -70px;
+    }
+    .jumbotron .display-4{
+        font-size: 52px;
+    }
+    .kelas-tambahan{
+        margin-left: -80px;
+        margin-top: 0px;
+    }
+    .kelas-anak img{
+        width: 550px;
+        height: 580px;
+    }
+    .kelas-tambahan img{
+        width: 510px;
+        height: 285px;
+    }
+    .btn-kelas-anak{
+        position: absolute;
+        top: 85%;
+        left: 5%;
+        background: none;
+        border: 3px solid white ;
+        color: white;
+    }
+    .btn-kelas-anak2{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        background: none;
+        border: 3px solid white ;
+        color: white;
+    }
+    .btn-kelas-remaja{
+        position: absolute;
+        top: 75%;
+        left: 7%;
+        background: none;
+        border: 3px solid white ;
+        color: white;
+        width: 170px;
+    }
+    .btn-kelas-remaja2{
+        position: absolute;
+        top: 75%;
+        left: 67%;
+        background: none;
+        border: 3px solid white ;
+        color: white;
+        width: 170px;
+    }
+    .btn-kelas-dewasa{
+        position: absolute;
+        top: 70%;
+        left: 7%;
+        background: none;
+        border: 3px solid white ;
+        color: white;
+        width: 170px;
+    }
+    .btn-kelas-dewasa2{
+        position: absolute;
+        top: 70%;
+        left: 67%;
+        background: none;
+        border: 3px solid white ;
+        color: white;
+        width: 170px;
+    }
+    .kontak{
+        margin-top: 0px;
+    }
+    .kontak-pribadi{
+        margin-top: 60px;
+        margin-left: 40px;
+        border-right: 2px solid black;
+    }
+    
+ }
